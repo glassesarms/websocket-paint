@@ -5,3 +5,9 @@ I can deploy my site using
 ```
 terraform apply
 ```
+
+I can run
+```
+aws s3 sync dist/ s3://paint-websocket-bucket --delete 
+```
+to redeploy to my vite frontend
